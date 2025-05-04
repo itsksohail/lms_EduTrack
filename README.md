@@ -82,7 +82,6 @@ npm install
 cd server
 npm run dev
 ```
----
 
 **Start the frontend:**
 
@@ -92,6 +91,8 @@ npm run dev
 ```
 
 ---
+
+### 5. Install Stripe CLI Application
 
 Note: You need to install the stripe CLI application from the stripe official account
 for listening webook events, webhook secret key and paring code in your pc without the 
@@ -143,3 +144,19 @@ Password: sdior32
 * Implement quizzes and certificates
 * Enable video streaming with playback tracking
 * Add dashboard analytics for instructors
+
+---
+
+### ⚠️ Warning
+
+> **Important Notice:**
+> This repository contains `.env` secret keys and instructor account credentials **shared strictly for educational and testing purposes only**.
+>
+> These credentials are made public **to help others learn and test** in a development environment.
+>
+> ❌ **Do not misuse these credentials for any unethical or unauthorized purposes.**
+>
+> Any such misuse will be considered a reflection of poor moral values and is **strongly discouraged**.
+>
+> ✅ Use them with **integrity** and for **good intentions only**—such as learning, testing, or replicating the environment for personal study.
+
