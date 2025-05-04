@@ -29,6 +29,7 @@ EduTrack is a full-featured Learning Management System (LMS) built with the MERN
 git clone https://github.com/itsksohail/lms_EduTrack.git
 cd lms_EduTrack
 ````
+---
 
 ### 2. Set Up Environment Variables
 
@@ -54,6 +55,43 @@ WEBHOOK_ENDPOINT_SECRET=your_webhook_secret
 
 FRONTEND_URL=http://localhost:5173
 ```
+---
+
+### 3. Install Dependencies
+
+**Server:**
+
+```bash
+cd server
+npm install
+```
+
+**Client:**
+
+```bash
+cd client
+npm install
+```
+---
+
+### 4. Run the Application
+
+**Start the backend:**
+
+```bash
+cd server
+npm run dev
+```
+---
+
+**Start the frontend:**
+
+```bash
+cd client
+npm run dev
+```
+
+---
 
 Note: You need to install the stripe CLI application from the stripe official account
 for listening webook events, webhook secret key and paring code in your pc without the 
@@ -71,39 +109,6 @@ stripe --version
 stripe login
 stripe listen --forward-to http://localhost:3000/api/v1/purchase/webhook
 ```
-
-### 3. Install Dependencies
-
-**Server:**
-
-```bash
-cd server
-npm install
-```
-
-**Client:**
-
-```bash
-cd client
-npm install
-```
-
-### 4. Run the Application
-
-**Start the backend:**
-
-```bash
-cd server
-npm run dev
-```
-
-**Start the frontend:**
-
-```bash
-cd client
-npm run dev
-```
-
 ---
 
 ## 🧾 Instructor Account
